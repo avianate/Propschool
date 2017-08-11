@@ -1,0 +1,437 @@
+﻿* {
+    font-family: "Open Sans";
+}
+
+.row {
+    max-width: 80rem;
+}
+
+.navbar-container {
+    height: 60px;
+}
+
+.top-bar {
+    max-width: 75rem !important;
+}
+
+.top-bar li a {
+    font-size: 16px !important;
+}
+
+section.top-bar-section {
+    margin-top: 10px;
+}
+
+.top-bar-section ul li {
+    background-color: none;
+}
+
+.surround {
+    position: relative;
+    top: 8px;
+    height: 30px;
+    background: white;
+    color: #0071BC;
+    border-radius: 4px;
+    margin-left: 2rem;
+    margin-right: 0.5rem;ill
+}
+
+.surround a#registerLink {
+    position: relative;
+    top: -8px;
+    background-color: transparent;
+}
+
+.hero {
+    max-width: 80rem;
+}
+
+.skygradient {
+    /*
+        lightBlue : #29ABE2
+        darkBlue : #0071BC
+    */
+
+    background-image: linear-gradient(
+            to bottom,
+            #29ABE2,
+            #0071BC
+        );
+
+    height: 25em;
+    margin-left: -1rem;
+    margin-right: -1rem;
+}
+
+.hero-body {
+    position: relative;
+    left: 55%;
+    top: 15%;
+    width: 33%;
+    color: white;
+}
+
+.hero-body h2 {
+    color: white;
+    margin-bottom: 10%;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.cloud {
+    content: url(../Images/SingleCloud.png)
+}
+
+.logo-cloud {
+    position: absolute;
+    top: -50px;
+    left: -30px;
+    z-index: 5;
+    -webkit-filter: drop-shadow(10px 30px 20px rgba(0, 0, 0, 0.5));
+}
+
+.top-left-cloud {
+    position: absolute;
+    top: -155px;
+    left: -155px;
+    transform: scale(0.4);
+}
+
+.bottom-left-cloud {
+    position: absolute;
+    top: 70px;
+    left: -195px;
+    transform: scale(0.6);
+    -webkit-filter: drop-shadow(10px 20px 20px rgba(0, 0, 0, 0.5));
+    z-index: 3;
+}
+
+.bottom-center-cloud {
+    position: absolute;
+    top: 115px;
+    left: -60px;
+    transform: scale(0.3);
+    -webkit-filter: drop-shadow(10px 20px 20px rgba(0, 0, 0, 0.5));
+    z-index: 2;
+}
+
+.top-right-cloud {
+    position: absolute;
+    top: -135px;
+    left: 140px;
+    transform: scale(0.25);
+}
+
+.cloud-text {
+    position: absolute;
+    top: 360px;
+    left: 32.5%;
+    width: 11%;
+    text-align: center;
+    color: #ff921e;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23px;
+}
+
+.ground-school-cloud {
+    position: absolute;
+    top: 215px;
+    left: 20%;
+    transform: scale(0.4);
+    -webkit-filter: drop-shadow(10px 20px 20px rgba(0, 0, 0, 0.3));
+}
+
+.courses {
+    background-color: #f2f2f2;
+    padding-bottom: 50px;
+}
+
+.courses-header {
+    margin-top: 7em;
+    margin-bottom: 5em;
+    text-align: center;
+}
+
+.course-list {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.course-icon {
+    color: white;
+    font-size: 76px;
+    border: 3px solid white;
+    border-radius: 50%;
+    width: 125px;
+    height: 125px;
+    margin: auto;
+    position: relative;
+    top: 17.36%;
+}
+
+.course-subheading {
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 0.8em;
+    font-weight: bold;
+    margin: -10px auto;
+    padding: 0 20px;
+    color: #808080;
+}
+
+.ppl-course-top {
+    margin-left: 4%;
+    height: 180px;
+    background-color: #C9025C;
+}
+
+.ppl::after {
+    content: "P";
+    position: relative;
+    top: -3px;
+    left: 3px;
+    font-family: Helvetica, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.ppl-heading {
+    color: #C9025C;
+    text-align: left;
+    padding: 0 21px;
+}
+
+.ipl-course-top {
+    margin-left: 4%;
+    height: 180px;
+    background-color: #B8E10B;
+}
+
+.ipl::after {
+    content: "I";
+    position: relative;
+    top: -3px;
+    font-family: Helvetica, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.ipl-heading {
+    color: #B8E10B;
+    text-align: left;
+    padding: 0 21px;
+}
+
+.cpl-course-top {
+    margin-left: 4%;
+    height: 180px;
+    background-color: #29ABE2;
+}
+
+.cpl::after {
+    content: "C";
+    position: relative;
+    top: -3px;
+    left: -2px;
+    font-family: Helvetica, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.cpl-heading {
+    color: #29ABE2;
+    text-align: left;
+    padding: 0 21px;
+}
+
+.course-body {
+    background-color: white;
+    margin-left: 4%;
+    padding-bottom: 30px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.four-forces-icon {
+    transform: scale(0.8);
+    opacity: 0.25;
+    margin: 20px auto;
+    margin-top: 30px;
+}
+
+.instruments-icon {
+    transform: scale(0.8);
+    opacity: 0.25;
+    margin: 20px auto;
+    margin-bottom: 37px;
+    margin-top: 35px;
+}
+
+.shades-icon {
+    transform: scale(0.6);
+    opacity: 0.25;
+    margin: 30px auto;
+    margin-bottom: 28px;
+}
+
+.course-list {
+    margin-top: 30px;
+    color: #999;
+}
+
+.course-list > h6 {
+    text-align: left;
+    padding-left: 20px;
+    color: #777;
+}
+
+.course-list ul {
+    list-style: none;
+    text-align: left;
+}
+
+.course-list ul li {
+    padding: 10px 20px 10px 10px;
+}
+
+.benefits {
+    background-color: white;
+    color: #bdbdbd;
+}
+
+.benefits-section {
+    margin-top: 100px;
+}
+
+.books-heading {
+    color: #B8E10B;
+}
+
+.dvds-heading {
+    color: #C9025C;
+}
+
+.technology-heading {
+    color: #29ABE2;
+}
+
+.aircraft-heading {
+    color: #ff921e
+}
+
+img.center-image {
+    display: block;
+    margin: 0 auto;
+}
+
+img.dvd-icon {
+    position: relative;
+    left: -20px;
+}
+
+img.cessna-circle-icon {
+    position: relative;
+    left: -17px;
+}
+
+.vertical-line {
+    border-left: 2px solid gray;
+    height: 120px;
+    width: 2px;
+    display: inline-block;
+    margin-left: 50%;
+}
+
+.vertical-line.top {
+    position: absolute;
+    top: -100px;
+    left: 0;
+}
+
+.vertical-line.top.long {
+    height: 230px;
+    top: -230px;
+}
+
+.pricing-plans {
+    background-color: #29ABE2;
+    margin-top: 100px;
+}
+
+.pricing-plans-section {
+    margin-top: 100px;
+}
+
+.pricing-plans h2 {
+    color: white;
+    text-align: center;
+    font-size: 2.25rem;
+}
+
+.pricing-plans-benefits {
+    color: white;
+    margin-left: 4%;
+    margin-top: 75px;
+}
+
+.pricing-plans-benefits h3 {
+    color: white;
+    margin-bottom: 5px;
+    font-size: 1.8rem;
+}
+
+.pricing-plans-benefits li img {
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.pricing-plans-benefits p {
+    font-size: 1.1em;
+    font-weight: 100;
+    width: 90%;
+    line-height: 1.5;
+}
+
+.pricing-plans-benefits p span {
+    font-size: 0.8rem;
+    position: relative;
+    top: -5px;
+}
+
+.pricing-table {
+    width: 90%;
+    margin-top: 75px;
+}
+
+.pricing-table .title {
+    font-weight: bold;
+    background-color: #C9025C;
+}
+
+.pricing-table .price {
+    color: #0071bc;
+}
+
+.pricing-table span {
+    margin: 0 auto;
+    line-height: 1.5rem;
+    text-align: center;
+    color: slategray;
+}
+
+.pricing-table.yearly-plan {
+    position: relative;
+    top: 6px;
+}
+
+.pricing-button.monthly {
+    background-color: #B8E10B;
+}
+
+.pricing-button.yearly {
+    background-color: #0071BC;
+}
+
+.pricing-button.single {
+    background-color: #ff921e;
+    
+}

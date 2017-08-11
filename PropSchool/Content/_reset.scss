@@ -1,0 +1,87 @@
+﻿@import "_settings.scss";
+
+html {
+    @include prefixes(box-sizing, border-box);
+}
+
+*, *::after, *::before {
+    @include prefixes(box-sizing, inherit);
+}
+
+body, html, div, blockquote, img, label, p, h1, h2, h3, h4, h5, h6, pre, ul,
+ol, li, dl, dt, dd, form, a, fieldset, input, th, td 
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+}
+
+html, body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Open Sans";
+    font-size: 100%;
+    line-height: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 0.6rem 0;
+    margin: 0;
+    line-height: normal;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+h5 {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+h6 {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+ul, ol, li {
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+caption, th, td {
+    text-align: left;
+    font-weight: normal;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+img {
+    border: 0;
+}

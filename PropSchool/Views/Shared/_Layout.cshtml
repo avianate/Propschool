@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0">
+    <title>Welcome to PropSchool.com</title>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+    @Styles.Render("~/Content/css")
+</head>
+<body>
+    <div class="row navbar-container flex-end">
+        <nav class="top-bar half">
+            <ul class="row space-around">
+                <li class="third">@Html.ActionLink("Private Pilot", "PPL", "Courses")</li>
+                <li class="third">@Html.ActionLink("Instrument Rating", "IPL", "Courses")</li>
+                <li class="third">@Html.ActionLink("Commercial Pilot", "CPL", "Courses")</li>
+                @*<li>@Html.Partial("_LoginPartial")</li>*@
+            </ul>
+        </nav>
+    </div>
+    @RenderSection("hero", required: false)
+
+    @RenderBody()
+    <hr />
+    <footer>
+        <p>&copy; @DateTime.Now.Year - www.propschool.com</p>
+    </footer>
+    @RenderSection("scripts", required: false)
+</body>
+</html>
